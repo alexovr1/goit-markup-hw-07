@@ -1,0 +1,37 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+.logo {
+    font-family: Raleway, Arial, sans-serif;
+    color: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+}

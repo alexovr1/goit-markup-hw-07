@@ -1,0 +1,31 @@
+.soc-list {
+    @include center-flex;
+}
+
+.soc-list__item+.soc-list__item {
+    margin-left: 10px;
+}
+
+.soc-link {
+    @include center-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--color-logo);
+    transition: color var(--time-fuction-anim),
+        background-color var(--time-fuction-anim);
+
+    &:hover,
+    &:focus {
+        color: var(--third-text-color);
+        background-color: var(--accent-text-color);
+    }
+    &--grey {
+        background-color: rgba(255, 255, 255, 0.1);
+            color: var(--third-text-color);
+    }
+}
+
+.soc-img {
+    fill: currentColor;
+}

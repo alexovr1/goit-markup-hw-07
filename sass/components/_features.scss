@@ -1,0 +1,33 @@
+.features-list {
+    display: flex;
+    margin: calc(-1 * var(--set-gap));
+    &__item {
+        margin: var(--set-gap);
+    }
+    &__item-img {
+        width: 270px;
+        height: 120px;
+        background-color: var(--third-backgroud-color);
+        margin-bottom: 30px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.features-item-title {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+
+    margin-bottom: 10px;
+}
+
+.features-item-subtitle {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    margin: auto auto;
+}
