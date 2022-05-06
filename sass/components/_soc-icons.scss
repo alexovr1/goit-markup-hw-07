@@ -29,3 +29,11 @@
 .soc-img {
     fill: currentColor;
 }
+
+.soc-title {
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-backgroud-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+}

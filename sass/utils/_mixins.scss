@@ -1,4 +1,5 @@
-@mixin center-flex ($jc:center, $ai:center) {
+@mixin center-flex ($d:flex, $jc:center, $ai:center) {
+    display: $d;
     justify-content: $jc;
     align-items: $ai;    
 }

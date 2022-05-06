@@ -1,0 +1,19 @@
+.our-clients__list {
+    @include center-flex (flex, space-between);
+}
+
+.our-clients__link {
+@include center-flex ();
+    color: #afb1b8;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: color var(--time-fuction-anim);
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+            border: 1px solid var(--accent-text-color);
+        }
+}

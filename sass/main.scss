@@ -1,7 +1,10 @@
 @import './utils/variables';
 @import './utils/reset';
 @import './utils/global-styles';
+@import './components/logo';
 @import './utils/mixins';
+@import './components/backdrop';
+@import './components/modal';
 @import './components/buttons';
 @import './components/soc-icons';
 @import './components/header';
@@ -9,3 +12,6 @@
 @import './components/features';
 @import './components/what-doing';
 @import './components/our-team';
+@import './components/our-clients';
+@import './components/footer';
+@import './pages/portfolio'

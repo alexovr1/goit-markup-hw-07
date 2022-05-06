@@ -18,20 +18,24 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-
     margin-bottom: 50px;
 }
 
-textarea {
-    resize: none;
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
-.logo {
-    font-family: Raleway, Arial, sans-serif;
-    color: var(--accent-text-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    margin-right: 93px;
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
